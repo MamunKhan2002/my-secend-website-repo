@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    /* height: fit-content; */
+    /* width: 900px; */
+    /* flex-basis: 900px; */
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 200px;
+    left: 0px;
+    right: 0px;
+    margin: 0px 50px;
+    flex-wrap: wrap;
+    justify-items: flex-start;
+
+}
+
+
+.div_h1 {
+    flex-basis: 100%;
+    height: max-content;
+    background-color: green;
+    text-align: center;
+}
+
+.gallery {
+    flex-basis: 300px;
+    height: 200px;
+    background-color: lightgray;
+    margin: 10px 10px;
+}
+
+.car_1 {
+    background-image: url(/images/car-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.car_2 {
+    background-image: url(/images/natural-2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.natural_3 {
+    background-image: url(/images/women-2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.natural_2 {
+    background-image: url(/images/womwn-3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.woman_4 {
+    background-image: url(/images/womwn-4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.woman_5 {
+    background-image: url(/images/natural-5.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
